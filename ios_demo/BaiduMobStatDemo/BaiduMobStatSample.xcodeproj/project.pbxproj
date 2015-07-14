@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2226CA24147362A900E4179C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2226CA23147362A900E4179C /* CoreLocation.framework */; };
+		226182E11463921B0021CA0D /* MyPageLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226182DF1463921B0021CA0D /* MyPageLogViewController.m */; };
+		2275572A14600461002FFD6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2275572914600461002FFD6B /* UIKit.framework */; };
+		2275572C14600461002FFD6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2275572B14600461002FFD6B /* Foundation.framework */; };
+		2275572E14600461002FFD6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2275572D14600461002FFD6B /* CoreGraphics.framework */; };
+		2275573414600461002FFD6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2275573214600461002FFD6B /* InfoPlist.strings */; };
+		2275573614600461002FFD6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2275573514600461002FFD6B /* main.m */; };
+		2275573A14600461002FFD6B /* BaiduMobStatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2275573914600461002FFD6B /* BaiduMobStatAppDelegate.m */; };
+		229683CD1468FD1500794E11 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229683CC1468FD1500794E11 /* libz.1.2.5.dylib */; };
+		22C01BDD1462697C00704D20 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C01BDC1462697C00704D20 /* CoreTelephony.framework */; };
+		22C01BDF14626A2A00704D20 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C01BDE14626A2A00704D20 /* libstdc++.dylib */; };
+		22E2C0BF14720BBE00917548 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E2C0BE14720BBE00917548 /* SystemConfiguration.framework */; };
+		766EAE361522E7CB006A9109 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 766EAE351522E7CB006A9109 /* icon.png */; };
+		DAA49FAA172CC57600643216 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA49FA9172CC57600643216 /* Security.framework */; };
+		DAA49FAC172CC5AB00643216 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA49FAB172CC5AB00643216 /* Default-568h@2x.png */; };
+		E16731F919AAE6B300810853 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E16731F819AAE6B300810853 /* libBaiduMobStat.a */; };
+		E181D3EF1A232C6C00E67202 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E181D3EE1A232C6C00E67202 /* WebViewViewController.m */; };
+		E19B3F831AB1707300B24474 /* mobstat.js in Resources */ = {isa = PBXBuildFile; fileRef = E19B3F821AB1707300B24474 /* mobstat.js */; };
+		E19B3F851AB1749C00B24474 /* mobstat.html in Resources */ = {isa = PBXBuildFile; fileRef = E19B3F841AB1749C00B24474 /* mobstat.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2226CA23147362A900E4179C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		226182DE1463921B0021CA0D /* MyPageLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageLogViewController.h; sourceTree = "<group>"; };
+		226182DF1463921B0021CA0D /* MyPageLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageLogViewController.m; sourceTree = "<group>"; };
+		2275572514600461002FFD6B /* BaiduMobStatSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduMobStatSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2275572914600461002FFD6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2275572B14600461002FFD6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2275572D14600461002FFD6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2275573114600461002FFD6B /* BaiduMobStatSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaiduMobStatSample-Info.plist"; sourceTree = "<group>"; };
+		2275573314600461002FFD6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2275573514600461002FFD6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2275573714600461002FFD6B /* BaiduMobStatSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaiduMobStatSample-Prefix.pch"; sourceTree = "<group>"; };
+		2275573814600461002FFD6B /* BaiduMobStatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduMobStatAppDelegate.h; sourceTree = "<group>"; };
+		2275573914600461002FFD6B /* BaiduMobStatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMobStatAppDelegate.m; sourceTree = "<group>"; };
+		229683CC1468FD1500794E11 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		22C01BDC1462697C00704D20 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		22C01BDE14626A2A00704D20 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		22E2C0BE14720BBE00917548 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		766EAE351522E7CB006A9109 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		DA96D9231820E121005A9FEC /* BaiduMobStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaiduMobStat.h; path = BaiduMobStatSample/BaiduMobStat.h; sourceTree = "<group>"; };
+		DAA49FA9172CC57600643216 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DAA49FAB172CC5AB00643216 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		E16731F819AAE6B300810853 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
+		E181D3ED1A232C6C00E67202 /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		E181D3EE1A232C6C00E67202 /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
+		E19B3F821AB1707300B24474 /* mobstat.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mobstat.js; sourceTree = "<group>"; };
+		E19B3F841AB1749C00B24474 /* mobstat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mobstat.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2275572214600461002FFD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA49FAA172CC57600643216 /* Security.framework in Frameworks */,
+				2226CA24147362A900E4179C /* CoreLocation.framework in Frameworks */,
+				22E2C0BF14720BBE00917548 /* SystemConfiguration.framework in Frameworks */,
+				229683CD1468FD1500794E11 /* libz.1.2.5.dylib in Frameworks */,
+				22C01BDF14626A2A00704D20 /* libstdc++.dylib in Frameworks */,
+				22C01BDD1462697C00704D20 /* CoreTelephony.framework in Frameworks */,
+				E16731F919AAE6B300810853 /* libBaiduMobStat.a in Frameworks */,
+				2275572E14600461002FFD6B /* CoreGraphics.framework in Frameworks */,
+				2275572A14600461002FFD6B /* UIKit.framework in Frameworks */,
+				2275572C14600461002FFD6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2275571A14600461002FFD6B = {
+			isa = PBXGroup;
+			children = (
+				DA96D9231820E121005A9FEC /* BaiduMobStat.h */,
+				E16731F819AAE6B300810853 /* libBaiduMobStat.a */,
+				E17E36141A2449FA00054F9D /* WebDemo */,
+				2275572F14600461002FFD6B /* BaiduMobStatSample */,
+				2275572814600461002FFD6B /* Frameworks */,
+				2275572614600461002FFD6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2275572614600461002FFD6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2275572514600461002FFD6B /* BaiduMobStatSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2275572814600461002FFD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA49FA9172CC57600643216 /* Security.framework */,
+				2226CA23147362A900E4179C /* CoreLocation.framework */,
+				229683CC1468FD1500794E11 /* libz.1.2.5.dylib */,
+				22E2C0BE14720BBE00917548 /* SystemConfiguration.framework */,
+				22C01BDE14626A2A00704D20 /* libstdc++.dylib */,
+				22C01BDC1462697C00704D20 /* CoreTelephony.framework */,
+				2275572914600461002FFD6B /* UIKit.framework */,
+				2275572B14600461002FFD6B /* Foundation.framework */,
+				2275572D14600461002FFD6B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2275572F14600461002FFD6B /* BaiduMobStatSample */ = {
+			isa = PBXGroup;
+			children = (
+				2275573814600461002FFD6B /* BaiduMobStatAppDelegate.h */,
+				2275573914600461002FFD6B /* BaiduMobStatAppDelegate.m */,
+				226182DE1463921B0021CA0D /* MyPageLogViewController.h */,
+				226182DF1463921B0021CA0D /* MyPageLogViewController.m */,
+				E181D3ED1A232C6C00E67202 /* WebViewViewController.h */,
+				E181D3EE1A232C6C00E67202 /* WebViewViewController.m */,
+				2275573014600461002FFD6B /* Supporting Files */,
+			);
+			path = BaiduMobStatSample;
+			sourceTree = "<group>";
+		};
+		2275573014600461002FFD6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				766EAE351522E7CB006A9109 /* icon.png */,
+				DAA49FAB172CC5AB00643216 /* Default-568h@2x.png */,
+				2275573114600461002FFD6B /* BaiduMobStatSample-Info.plist */,
+				2275573214600461002FFD6B /* InfoPlist.strings */,
+				2275573514600461002FFD6B /* main.m */,
+				2275573714600461002FFD6B /* BaiduMobStatSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E17E36141A2449FA00054F9D /* WebDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E19B3F841AB1749C00B24474 /* mobstat.html */,
+				E19B3F821AB1707300B24474 /* mobstat.js */,
+			);
+			path = WebDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2275572414600461002FFD6B /* BaiduMobStatSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2275573D14600462002FFD6B /* Build configuration list for PBXNativeTarget "BaiduMobStatSample" */;
+			buildPhases = (
+				2275572114600461002FFD6B /* Sources */,
+				2275572214600461002FFD6B /* Frameworks */,
+				2275572314600461002FFD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduMobStatSample;
+			productName = BaiduMobStatSample;
+			productReference = 2275572514600461002FFD6B /* BaiduMobStatSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2275571C14600461002FFD6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2275571F14600461002FFD6B /* Build configuration list for PBXProject "BaiduMobStatSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2275571A14600461002FFD6B;
+			productRefGroup = 2275572614600461002FFD6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2275572414600461002FFD6B /* BaiduMobStatSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2275572314600461002FFD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2275573414600461002FFD6B /* InfoPlist.strings in Resources */,
+				E19B3F851AB1749C00B24474 /* mobstat.html in Resources */,
+				766EAE361522E7CB006A9109 /* icon.png in Resources */,
+				E19B3F831AB1707300B24474 /* mobstat.js in Resources */,
+				DAA49FAC172CC5AB00643216 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2275572114600461002FFD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2275573614600461002FFD6B /* main.m in Sources */,
+				2275573A14600461002FFD6B /* BaiduMobStatAppDelegate.m in Sources */,
+				E181D3EF1A232C6C00E67202 /* WebViewViewController.m in Sources */,
+				226182E11463921B0021CA0D /* MyPageLogViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2275573214600461002FFD6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2275573314600461002FFD6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2275573B14600461002FFD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2275573C14600461002FFD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2275573E14600462002FFD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: baowei wang (3PTSL4L234)";
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduMobStatSample/BaiduMobStatSample-Prefix.pch";
+				INFOPLIST_FILE = "BaiduMobStatSample/BaiduMobStatSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1D24ADE6-A6A7-48E4-A1C0-1A06AE151745";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2275573F14600462002FFD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: baowei wang (3PTSL4L234)";
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduMobStatSample/BaiduMobStatSample-Prefix.pch";
+				INFOPLIST_FILE = "BaiduMobStatSample/BaiduMobStatSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1D24ADE6-A6A7-48E4-A1C0-1A06AE151745";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2275571F14600461002FFD6B /* Build configuration list for PBXProject "BaiduMobStatSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2275573B14600461002FFD6B /* Debug */,
+				2275573C14600461002FFD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2275573D14600462002FFD6B /* Build configuration list for PBXNativeTarget "BaiduMobStatSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2275573E14600462002FFD6B /* Debug */,
+				2275573F14600462002FFD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2275571C14600461002FFD6B /* Project object */;
+}
